@@ -1,0 +1,37 @@
+{
+  "name": "@riddles/match-viewer",
+  "version": "0.1.0",
+  "description": "This package contains the base library upon which match viewers for Riddles.io and TheAIGames.com can be built.",
+  "main": "lib/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:riddlesio/match-viewer.git"
+  },
+  "keywords": [
+    "The AI Games",
+    "aigames",
+    "Riddles.io",
+    "match",
+    "viewer"
+  ],
+  "author": "Niko van Meurs <niko@riddles.io>",
+  "license": "All rights reserved",
+  "dependencies": {
+    "classnames": "^2.1.1",
+    "eventemitter3": "^1.1.0",
+    "invariant": "^2.2.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^3.5.0",
+    "mousetrap": "^1.5.2",
+    "omniscient": "^4.1.1",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
