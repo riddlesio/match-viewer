@@ -28,7 +28,7 @@
     "mousetrap": "^1.5.2",
     "omniscient": "^4.1.1",
     "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "react-dom": "^15.1.0"
   },
   "browserify": {
     "transform": [
