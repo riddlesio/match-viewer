@@ -4,7 +4,8 @@
   "description": "This package contains the base library upon which match viewers for Riddles.io and TheAIGames.com can be built.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "_mocha --compilers js:babel-register ./test/**/*.spec.js"
+    "test": "_mocha --compilers js:babel-register ./test/**/*.spec.js",
+    "postpublish": "./node_modules/.bin/notify-discord -c \"155423979354456064\" -t \"MTU0NDg5NTMyNTI2MzYyNjI0.CbuABw.yKQdIkpHxxU7ykeCSx9HIEMtkqA\""
   },
   "repository": {
     "type": "git",
