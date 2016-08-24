@@ -1,15 +1,16 @@
 {
   "name": "@riddles/match-viewer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "This package contains the base library upon which match viewers for Riddles.io and TheAIGames.com can be built.",
   "main": "lib/index.js",
   "scripts": {
     "test": "_mocha --compilers js:babel-register ./test/**/*.spec.js",
     "postpublish": "./node_modules/.bin/notify-discord -c \"155423979354456064\" -t \"MTU0NDg5NTMyNTI2MzYyNjI0.CbuABw.yKQdIkpHxxU7ykeCSx9HIEMtkqA\""
   },
+  "homepage": "https://github.com/riddlesio/match-viewer",
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:riddlesio/match-viewer.git"
+    "url": "git@github.com:riddlesio/match-viewer.git"
   },
   "keywords": [
     "The AI Games",
@@ -30,11 +31,6 @@
     "omniscient": "^4.1.1",
     "react": "^15.0.0",
     "react-dom": "^15.1.0"
-  },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
   },
   "devDependencies": {
     "@riddles/npm-discord-notifier": "^1.0.6",
